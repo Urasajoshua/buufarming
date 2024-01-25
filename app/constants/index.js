@@ -87,3 +87,26 @@ export const coreServices = [
         message: 'We do research on green technologies daily to improve the waste management sector',
     },
 ]
+
+export const aboutItem = [
+    {
+        title: 'Minimize Soil Degradation',
+        message: 'Minimizing soil degradation is crucial for maintaining healthy ecosystems, promoting sustainable agriculture, and ensuring food security.',
+        icon: <Icon icon="jam:flower" color='#82B440' width={60} height={60} />
+    },
+    {
+        title: 'Decrease Pollution',
+        message: 'Reducing pollution is a critical goal to protect the environment, human health, and biodiversity. Pollution can take various forms, including air, water, and soil pollution.',
+        icon: <Icon icon="openmoji:exhaust-gases-car" width={60} height={60} color='#82B440' />
+    },
+    {
+        title: 'Optimize Biological Productivity',
+        message: 'Optimizing biological productivity is crucial for sustainable agriculture, ecosystem health, and overall food security. Biological productivity refers to the capacity of ecosystems to produce biomass, including crops and other plant and animal resources.',
+        icon: <Icon icon="game-icons:plant-roots" color='#82B440' width={60} height={60} />
+    },
+    {
+        title: 'Decreases Soil Erosion',
+        message: 'Reducing soil erosion is crucial for maintaining soil fertility, promoting sustainable agriculture, and protecting water quality. Soil erosion occurs when topsoil is washed or blown away, leading to the loss of valuable nutrients and degradation of agricultural land',
+        icon: <Icon icon="iconoir:soil-alt" color='#82B440' width={60} height={60} />
+    },
+]
