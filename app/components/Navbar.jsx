@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className='hidden sm:flex'>
             <ul className=''>
                 {navItems.map((item)=>(
-                    <Link href={item.link} key={item.link} className={`ml-12 first-letter:uppercase ${active === item.link ? "text-black underline" : "text-white"}`}>
+                    <Link href={`/#${item.id}`} key={item.link} className={`ml-12 first-letter:uppercase ${active === item.link ? "text-black underline" : "text-white"}`}>
                         {item.name}
                     </Link>
                 ))}

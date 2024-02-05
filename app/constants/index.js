@@ -3,26 +3,28 @@ import { Icon } from '@iconify/react';
 
 export const navItems = [
     {
+        id: 'home',
         name: 'home',
         link: '/'
     },
     {
+        id: 'services',
         name: 'services',
         link: '/services'
     },
     {
+        id: 'about',
         name: 'about',
         link: '/about'
     },
     {
+        id: 'contact',
         name: 'contact',
         link: '/contact'
     },
+    
     {
-        name: 'products',
-        link: '/products'
-    },
-    {
+        id: 'team',
         name: 'team',
         link: '/team'
     },
@@ -108,5 +110,30 @@ export const aboutItem = [
         title: 'Decreases Soil Erosion',
         message: 'Reducing soil erosion is crucial for maintaining soil fertility, promoting sustainable agriculture, and protecting water quality. Soil erosion occurs when topsoil is washed or blown away, leading to the loss of valuable nutrients and degradation of agricultural land',
         icon: <Icon icon="iconoir:soil-alt" color='#82B440' width={60} height={60} />
+    },
+]
+
+
+
+export const team = [
+    {
+        name: 'nobert mrema',
+        image: '/joshua.png',
+        profesion: 'Enviroment Engineer'
+    },
+    {
+        name: 'nobert mrema',
+        image: '/joshua.png',
+        profesion: 'Enviroment Engineer'
+    },
+    {
+        name: 'nobert mrema',
+        image: '/joshua.png',
+        profesion: 'Enviroment Engineer'
+    },
+    {
+        name: 'nobert mrema',
+        image: '/joshua.png',
+        profesion: 'Enviroment Engineer'
     },
 ]

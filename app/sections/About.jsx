@@ -2,8 +2,10 @@
 import React from 'react'
 import { aboutItem } from '../constants'
 
-const page = () => {
+const About = () => {
   return (
+    <div id='about' className='py-16'>
+         
     <div>
       <h1 className='text-center text-[#82B440] text-3xl py-6 font-medium'>
       Who We are?
@@ -64,6 +66,8 @@ const page = () => {
       </div>
     </div>
   )
+    </div>
+  )
 }
 
-export default page
+export default About

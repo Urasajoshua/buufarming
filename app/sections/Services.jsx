@@ -5,7 +5,7 @@ import { coreServices } from '../constants'
 
 const Services = () => {
   return (
-    <div className='mt-4 mb-4'>
+    <div className='mt-4 mb-4 py-16' id='services'>
         <h1 className='text-center text-3xl font-semibold text-[#82B440] py-6'>Our Services</h1>
         <div className='flex justify-center items-center'>
             <div className='grid md:grid-cols-2 md:content-center'>
@@ -47,7 +47,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
-        <div className='flex justify-center items-center py-12 text-center md:mx-16 bg-gray-950 text-white rounded-3xl mt-4 md:mt-8 mx-4 '>
+        <div className='flex justify-center items-center py-12 text-center md:mx-16 bg-[#82B440] font-semibold text-white rounded-3xl mt-4 md:mt-8 mx-4 '>
             
             
                 <p className='md:mx-4'>
