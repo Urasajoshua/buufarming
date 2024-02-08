@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const Objective = () => {
   return (
-    <div className='mt-10 md:mb-4 py-8'>
+    <div className='mt-10 md:mb-4 py-8' data-aos='fade-up'>
         <h1 className='text-center text-[#82B440] text-3xl font-semibold py-2'>Our Objectives</h1>
         <p className='text-center mx-4 text-lg'>
         To establish and promote sustainable Agriculture & waste management practices that fosters development & reduce the environmental negative impacts.

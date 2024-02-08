@@ -9,7 +9,7 @@ import Team from './sections/Team'
 
 const page = () => {
   return (
-    <div id='home' className='py-4'>
+    <div id='home' className='' data-aos='zoom-out-up' data-aos-duration='2000'>
       <div>
       <Carousel/>
       <Mission/>

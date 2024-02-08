@@ -20,7 +20,7 @@ const Navbar = () => {
         setActive(pathName)
     },[pathName])
   return (
-    <div className='sticky top-0 flex justify-between items-center bg-[#82B440]  py-6 px-4'>
+    <div className='sticky top-0 z-50 flex justify-between items-center bg-[#82B440]  py-3 px-4'>
         <div className=''>
             <Image src={'/buu.png'} width={100} height={100} color='' className=''/>
         </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
             <ul className='flex flex-col top-0 py-10 gap-10 text-white text-lg'>
                 {
                     navItems.map((item)=>(
-                        <Link key={item.id} href={`#${item.link}`} className='hover:underline'>
+                        <Link onClick={handleHamburger} key={item.id} href={`#${item.id}`} className='hover:underline'>
                             {item.name}
                         </Link>
                     ))

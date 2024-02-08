@@ -157,12 +157,12 @@ export const usefulLinks = [
         icon: <Icon icon="ooui:next-ltr" />
     },
     {
-        name: 'Terms of Services',
+        name: 'Contact',
         link: '/',
         icon: <Icon icon="ooui:next-ltr" />
     },
     {
-        name: 'Privacy Policy',
+        name: 'Team',
         link: '/',
         icon: <Icon icon="ooui:next-ltr" />
     }
@@ -171,30 +171,26 @@ export const usefulLinks = [
 
 export const ourServices = [
     {
-        name: 'Building Materials',
+        name: 'Composting',
         link: '/',
         icon: <Icon icon="ooui:next-ltr"  />
     },
     {
-        name: 'Spare Parts',
+        name: 'Black Soldier Fly',
         link: '/',
         icon: <Icon icon="ooui:next-ltr" />
     },
     {
-        name: 'Clothing Materials',
+        name: 'Design & Management',
         link: '/',
         icon: <Icon icon="ooui:next-ltr" />
     },
     {
-        name: 'Cleaning Materias',
+        name: 'Research',
         link: '/',
         icon: <Icon icon="ooui:next-ltr" />
     },
-    {
-        name: 'Phones & ICT',
-        link: '/',
-        icon: <Icon icon="ooui:next-ltr" />
-    }
+   
 ]
 
 

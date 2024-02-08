@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const Contact = () => {
   return (
-    <div id='contact' className='py-20'>
+    <div id='contact' className='py-20' data-aos='zoom-out'>
         <h1 className='text-center text-4xl'>Contact Us</h1>
         <div className='mx-12'>
             <h1 className='text-[#82B440] text-3xl font-medium py-4'>Get in Touch</h1>

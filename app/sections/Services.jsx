@@ -5,7 +5,7 @@ import { coreServices } from '../constants'
 
 const Services = () => {
   return (
-    <div className='mt-4 mb-4 py-16' id='services'>
+    <div className='mt-4 mb-4 py-16' id='services' data-aos='zoom-in-right'>
         <h1 className='text-center text-3xl font-semibold text-[#82B440] py-6'>Our Services</h1>
         <div className='flex justify-center items-center'>
             <div className='grid gap-4 md:grid-cols-2 md:content-center'>
@@ -59,7 +59,7 @@ const Services = () => {
         <div className='flex justify-center items-center py-6'>
             <div className='grid md:grid-cols-2 md:mx-28'>
                 {coreServices.map((item)=>(
-                    <div className=' flex justify-center items-center py-8 border mx-4 my-4 rounded-2xl shadow-sm'>
+                    <div data-aos='zoom-out-right' className=' flex justify-center items-center py-8 border mx-4 my-4 rounded-2xl shadow-sm'>
                         <div>
                             {item.image}
                         </div>
