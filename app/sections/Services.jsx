@@ -8,15 +8,15 @@ const Services = () => {
     <div className='mt-4 mb-4 py-16' id='services'>
         <h1 className='text-center text-3xl font-semibold text-[#82B440] py-6'>Our Services</h1>
         <div className='flex justify-center items-center'>
-            <div className='grid md:grid-cols-2 md:content-center'>
-                <div className='mx-28'>
+            <div className='grid gap-4 md:grid-cols-2 md:content-center'>
+                <div className='mx-4 rounded-lg'>
                     <Image src={'/1.jpg'} width={455} height={150}/>
                 </div>
                 <div className='md:w-1/2'>
                     <h1 className='text-center py-4 text-xl'>We operate through providing of:</h1>
                     <div className='flex flex-col justify-center items-center space-y-8'>
                         <div className='flex  justify-center'>
-                            <div className='w-10 h-4 bg-[#82B440] rounded-full mx-4'></div>
+                            <div className='w-10 h-4 bg-[#82B440] rounded-full mx-2'></div>
                             <div>
                                 <p className='text-center mx-8 md:mx-0'>
                                 Waste management services: This includes prepare and monitoring waste  management plans on site, Industries, Institution,Cleaning, Design of waste management facilities ,Training and consultation services
@@ -26,7 +26,7 @@ const Services = () => {
 
 
                        <div className='flex  justify-center'>
-                            <div className='w-10 h-4 bg-[#82B440] rounded-full mx-4'></div>
+                            <div className='w-10 h-4 bg-[#82B440] rounded-full mx-2'></div>
                             <div>
                                 <p className='text-center mx-8 md:mx-0'>
                                 Resource Transformation: Our expertise extends to converting waste into valuable resources, such as compost and biofeed, contributing to a sustainable and regenerative ecosystem.
@@ -36,7 +36,7 @@ const Services = () => {
 
 
                        <div className='flex  justify-center'>
-                            <div className='w-10 h-4 bg-[#82B440] rounded-full mx-4'></div>
+                            <div className='w-10 h-4 bg-[#82B440] rounded-full mx-2'></div>
                             <div>
                                 <p className='text-center mx-8 md:mx-0'>
                                 Recycling: We actively promote and engage in recycling initiatives, diverting materials from landfills and promoting a circular economy.
@@ -47,10 +47,10 @@ const Services = () => {
                 </div>
             </div>
         </div>
-        <div className='flex justify-center items-center py-12 text-center md:mx-16 bg-[#82B440] font-semibold text-white rounded-3xl mt-4 md:mt-8 mx-4 '>
+        <div className='flex  py-16 text-center  bg-[#82B440] font-semibold text-white rounded-3xl mt-4 md:mt-8 mx-4 '>
             
             
-                <p className='md:mx-4'>
+                <p className='mx-6'>
                 Sustainability is not solely about doing less harm; it's a commitment to doing more good, preserving our communities for future generations, and cultivating a world where every action nurtures the well-being of the environment, society, and economy.
                 </p>
             

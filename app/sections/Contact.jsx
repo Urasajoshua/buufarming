@@ -13,9 +13,9 @@ const Contact = () => {
             </p>
         </div>
         <div className='flex justify-center items-center'>
-            <div className='flex flex-col md:flex-row md:justify-around md:gap-4'>
-                <div className='flex flex-col space-y-10 border border-gray-50 shadow px-12 mt-10'>
-                    <h1 className='text-gray-950 text-sm font-normal py-3'>We can help.Our team of expert is on hand <br/>to answer your questions</h1>
+            <div className='flex flex-col  md:flex-row md:justify-around md:gap-4'>
+                <div className='flex flex-col mb-6 py-10 space-y-10 border border-gray-50 shadow px-12 mt-10'>
+                    <h1 className='text-gray-950 text-lg font-normal py-3'>We can help.Our team of expert is on hand <br/>to answer your questions</h1>
 
                     <div className='flex flex-col space-y-8'>
                         <div className='flex gap-3 border-b py-2'>

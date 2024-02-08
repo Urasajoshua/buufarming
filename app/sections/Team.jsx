@@ -11,8 +11,8 @@ const Team = () => {
         They work Relentlessly
         </p>
 
-        <div className='flex justify-center items-center'>
-            <div className='grid md:grid-cols-12 md:gap-4 text-center'>
+        <div className='flex justify-center items-center py-4'>
+            <div className='grid md:grid-cols-12 gap-4 text-center'>
                 {
                     team.map((item)=>(
                         <div key={item.name} className='col-span-3 border rounded-lg py-10 px-10 '>

@@ -51,17 +51,17 @@ export const carouselItems = [
 
 export const mission = [
     {
-        icon: <Icon icon="teenyicons:bulb-on-solid" color='black' width={30} height={30} />,
+        icon: <Icon icon="teenyicons:bulb-on-solid" color='#82B440' width={40} height={40} />,
         title: 'INNOVATION',
         message: "We're committed to developing novel, sustainable agriculture & waste solutions that benefit both our communities."
     },
     {
-        icon: <Icon icon="mingcute:target-line" color='black' width={30} height={30} />,
+        icon: <Icon icon="mingcute:target-line" color='#82B440' width={40} height={40} />,
         title: 'EFFECIENCY',
         message: "We're committed to developing novel, sustainable agriculture & waste solutions that benefit both our communities."
     },
     {
-        icon: <Icon icon="icon-park-solid:communication" color='black' width={30} height={30} />,
+        icon: <Icon icon="icon-park-solid:communication" color='#82B440' width={40} height={40} />,
         title: 'EFFECTIVE COMMUNICATION',
         message: "We're committed to developing novel, sustainable agriculture & waste solutions that benefit both our communities."
     },
@@ -137,3 +137,64 @@ export const team = [
         profesion: 'Enviroment Engineer'
     },
 ]
+
+
+
+export const usefulLinks = [
+    {
+        name: 'Home',
+        link: '/',
+        icon: <Icon icon="ooui:next-ltr" />
+    },
+    {
+        name: 'About',
+        link: '/about',
+        icon: <Icon icon="ooui:next-ltr" />
+    },
+    {
+        name: 'Services',
+        link: '/services',
+        icon: <Icon icon="ooui:next-ltr" />
+    },
+    {
+        name: 'Terms of Services',
+        link: '/',
+        icon: <Icon icon="ooui:next-ltr" />
+    },
+    {
+        name: 'Privacy Policy',
+        link: '/',
+        icon: <Icon icon="ooui:next-ltr" />
+    }
+]
+
+
+export const ourServices = [
+    {
+        name: 'Building Materials',
+        link: '/',
+        icon: <Icon icon="ooui:next-ltr"  />
+    },
+    {
+        name: 'Spare Parts',
+        link: '/',
+        icon: <Icon icon="ooui:next-ltr" />
+    },
+    {
+        name: 'Clothing Materials',
+        link: '/',
+        icon: <Icon icon="ooui:next-ltr" />
+    },
+    {
+        name: 'Cleaning Materias',
+        link: '/',
+        icon: <Icon icon="ooui:next-ltr" />
+    },
+    {
+        name: 'Phones & ICT',
+        link: '/',
+        icon: <Icon icon="ooui:next-ltr" />
+    }
+]
+
+
