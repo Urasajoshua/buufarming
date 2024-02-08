@@ -122,17 +122,17 @@ export const team = [
         profesion: 'Enviroment Engineer'
     },
     {
-        name: 'nobert mrema',
+        name: 'Anna Shoo',
         image: '/joshua.png',
         profesion: 'Enviroment Engineer'
     },
     {
-        name: 'nobert mrema',
+        name: 'Aneth ngowi',
         image: '/joshua.png',
         profesion: 'Enviroment Engineer'
     },
     {
-        name: 'nobert mrema',
+        name: 'Joshua Urasa',
         image: '/joshua.png',
         profesion: 'Enviroment Engineer'
     },

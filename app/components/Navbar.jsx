@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className='sticky top-0 z-50 flex justify-between items-center bg-[#82B440]  py-3 px-4'>
         <div className=''>
-            <Image src={'/buu.png'} width={100} height={100} color='' className=''/>
+            <Image alt='' src={'/buu.png'} width={100} height={100} color='' className=''/>
         </div>
         <div className='hidden sm:flex'>
             <ul className=''>

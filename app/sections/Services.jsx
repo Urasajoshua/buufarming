@@ -10,7 +10,7 @@ const Services = () => {
         <div className='flex justify-center items-center'>
             <div className='grid gap-4 md:grid-cols-2 md:content-center'>
                 <div className='mx-4 rounded-lg'>
-                    <Image src={'/1.jpg'} width={455} height={150}/>
+                    <Image src={'/1.jpg'} width={455} height={150} alt=''/>
                 </div>
                 <div className='md:w-1/2'>
                     <h1 className='text-center py-4 text-xl'>We operate through providing of:</h1>
@@ -59,7 +59,7 @@ const Services = () => {
         <div className='flex justify-center items-center py-6'>
             <div className='grid md:grid-cols-2 md:mx-28'>
                 {coreServices.map((item)=>(
-                    <div data-aos='zoom-out-right' className=' flex justify-center items-center py-8 border mx-4 my-4 rounded-2xl shadow-sm'>
+                    <div key={item.title} data-aos='zoom-out-right' className=' flex justify-center items-center py-8 border mx-4 my-4 rounded-2xl shadow-sm'>
                         <div>
                             {item.image}
                         </div>

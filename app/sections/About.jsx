@@ -50,7 +50,7 @@ const About = () => {
         <div className='flex justify-center items-center'>
           <div className='grid mx-4'>
             {aboutItem.map((item) => (
-              <div key={item.icon} className='flex justify-center items-center py-6' data-aos='zoom-in'>
+              <div key={item.message} className='flex justify-center items-center py-6' data-aos='zoom-in'>
                 <div className='flex'>
                   {item.icon}
                 </div>

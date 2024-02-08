@@ -36,9 +36,9 @@ const Footer = () => {
 
                 <ul className='flex flex-col space-y-2 text-start py-4'>
                     {usefulLinks.map((item)=>(
-                        <div className='flex justify-start gap-1' key={item.icon}>
+                        <div className='flex justify-start gap-1' key={item.name} >
                         
-                            <Link key={item.link} href={item.link} className='text-[14px] font-normal text-left text-gray-300 gap-1 flex justify-center items-center'>
+                            <Link key={item.name} href={item.link} className='text-[14px] font-normal text-left text-gray-300 gap-1 flex justify-center items-center'>
                           <span>{item.icon}</span>  <span>{item.name}</span>
                         </Link>
                         </div>
@@ -53,9 +53,9 @@ const Footer = () => {
 
                 <ul className='flex flex-col space-y-2 text-start py-4'>
                     {ourServices.map((item)=>(
-                        <div className='flex justify-start' key={item.icon}>
+                        <div className='flex justify-start' key={item.name}>
                            
-                            <Link key={item.link} href={item.link} className='ftext-[14px] font-normal text-left text-gray-300 flex justify-center items-center gap-1'>
+                            <Link key={item.name} href={item.link} className='ftext-[14px] font-normal text-left text-gray-300 flex justify-center items-center gap-1'>
                             <span>{item.icon}</span> <span>{item.name}</span>
                         </Link>
                         </div>
