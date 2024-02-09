@@ -25,19 +25,14 @@ const Carousel = () => {
     
     >
       <SwiperSlide>
-        <ImageSlider image={'/buu.jpg'} message=" Without a customer,
-there is no one to serve and
-will not exist in the market."/>
+        <ImageSlider image={'/buu.jpg'} message="Buu Farm aim to bring up suitainable and innovative farming practises in Africa and Waste management."/>
       </SwiperSlide>
       <SwiperSlide>
-        <ImageSlider image={'/buu1.jpg'} message={'HEALTH,SAFETY AND ENVIRONMENT'} description='MTCL has always had an excellent health and safety record, with
-incident rates way below the national average for this industry and
-we will continue to invest a great deal of time and effort in ensuring
-that our sites are safe places to work'/>
+        <ImageSlider image={'/buu1.jpg'} message={'Remember, it`s not just the environment that benefits from our teamwork it`s also our own well-being and the well-being of future generations. '} description=''/>
       </SwiperSlide>
 
       <SwiperSlide>
-        <ImageSlider message={' We Believe The Best Way to Solve The Problem is To Build a Sustainable Business Around it'}image={'/buu2.jpg'} />
+        <ImageSlider message={'We achieved developing different green techlologies for waste management, including rectors and agricultural products'}image={'/buu2.jpg'} />
       </SwiperSlide>
      
     
